@@ -1,0 +1,28 @@
+{
+    "configurations": [
+      {
+        "name": "ESP-IDF",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "includePath": [
+          "${config:idf.espIdfPath}/components/**",
+          "${config:idf.espIdfPath}/examples/**",
+          "${config:idf.espIdfPathWin}/components/**",
+          "${config:idf.espIdfPathWin}/examples/**",
+          "${workspaceFolder}/**"
+        ],
+        "browse": {
+          "path": [
+            "${config:idf.espIdfPath}/components",
+            "${config:idf.espIdfPath}/examples/**",
+            "${config:idf.espIdfPathWin}/components",
+            "${config:idf.espIdfPathWin}/examples/**",
+            "${workspaceFolder}"
+          ],
+          "limitSymbolsToIncludedHeaders": false
+        },
+        "compilerPath": "D:\\ESP\\tools\\xtensa-esp32-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32-elf\\bin\\xtensa-esp32-elf-gcc.exe"
+      }
+    ],
+    "version": 4
+  }

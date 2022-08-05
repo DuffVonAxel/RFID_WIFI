@@ -1,0 +1,1 @@
+idf_component_register(SRCS "teste0300.c" INCLUDE_DIRS ".")
